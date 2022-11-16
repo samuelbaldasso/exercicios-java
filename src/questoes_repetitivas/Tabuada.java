@@ -16,6 +16,7 @@ public class Tabuada {
       int calc = n1 * n2;
       System.out.println(calc);
     }
+    sc1.close();
   }
 
 }

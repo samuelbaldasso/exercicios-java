@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Crescente {
   public static void main(String[] args) {
-
     Scanner sc1 = new Scanner(System.in);
     System.out.println("N1: ");
     int n1 = sc1.nextInt();
@@ -12,7 +11,7 @@ public class Crescente {
     int n2 = sc1.nextInt();
     if (n1 < n2)
       System.out.println("Decrescente...");
-    else
+    else if (n1 > n2)
       System.out.println("Crescente");
 
     while (n1 != n2) {

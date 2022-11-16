@@ -3,7 +3,7 @@ package questoes_condicionais;
 import java.util.Scanner;
 
 public class Glicose {
-  public void glicose() {
+  public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Glicose: ");
     int glic = sc.nextInt();
@@ -16,6 +16,7 @@ public class Glicose {
     } else if (glic > 140) {
       System.out.println("Diabetes");
     }
+    sc.close();
   }
 
 }

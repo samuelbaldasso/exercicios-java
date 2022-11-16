@@ -3,7 +3,7 @@ package questoes_condicionais;
 import java.util.Scanner;
 
 public class Maior {
-    public void maior() {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("N1: ");
         Double n1 = sc.nextDouble();

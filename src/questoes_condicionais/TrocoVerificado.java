@@ -3,7 +3,7 @@ package questoes_condicionais;
 import java.util.Scanner;
 
 public class TrocoVerificado {
-  public void troco() {
+  public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Preço: ");
     Double preco = sc.nextDouble();
@@ -17,6 +17,7 @@ public class TrocoVerificado {
     if (troco < 0) {
       System.out.println("Dinheiro insufuciente. Faltam " + troco * -1);
     }
+    sc.close();
   }
 
 }

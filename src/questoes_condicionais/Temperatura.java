@@ -3,7 +3,7 @@ package questoes_condicionais;
 import java.util.Scanner;
 
 public class Temperatura {
-  public void temp() {
+  public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Nome da medida: ");
     String nome = sc.next();
@@ -20,5 +20,6 @@ public class Temperatura {
     } else {
       System.out.println("Essa medida não existe.");
     }
+    sc.close();
   }
 }
