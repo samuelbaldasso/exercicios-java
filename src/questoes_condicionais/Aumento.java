@@ -6,7 +6,7 @@ public class Aumento {
   public static void main(String[] args) {
     System.out.println("Salário: ");
     Scanner sc = new Scanner(System.in);
-    Double salario = sc.nextDouble();
+    double salario = sc.nextDouble();
 
     if (salario <= 1000) {
       double percent = 0.2;
